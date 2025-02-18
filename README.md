@@ -69,7 +69,7 @@ Lista de comandos esenciales de Git Bash para el control de versiones.
   ```bash
   git branch test
   git branch -a
-  git bash -b test-1
+  git checkout -b test-1
   ```
 - **Comando eliminar rama**:
   ```bash
