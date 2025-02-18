@@ -75,3 +75,11 @@ Lista de comandos esenciales de Git Bash para el control de versiones.
   ```bash
   git branch -D "nombre_rama"
   ```
+- **Comando para realizar merge**:
+  ```bash
+  git merge "nombre_rama"
+  ``` 
+- **Comando para eliminar inicializacion de repositorio**:
+  ```bash
+  rm -rf .git
+  ```
