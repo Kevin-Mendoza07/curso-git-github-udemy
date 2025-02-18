@@ -1,4 +1,6 @@
-# Complete Git and GitHub: Beginner to Expert
+
+[![My Skills](https://skillicons.dev/icons?i=git,github)](https://skillicons.dev) Complete Git and GitHub: Beginner to Expert
+--
 
 ¡Curso de **Complete Git and GitHub: Beginner to Expert**! Este curso trata sobre los conceptos básicos hasta un nivel avanzado en el uso de Git y GitHub.
 
@@ -13,7 +15,7 @@
 
 Lista de comandos esenciales de Git Bash para el control de versiones.
 
-### Configuración Inicial
+### 🔩 Configuración Inicial
 
 - **Configurar tu nombre de usuario y correo electrónico**:
   ```bash
@@ -21,7 +23,7 @@ Lista de comandos esenciales de Git Bash para el control de versiones.
   git config --global user.email "email@example.com"
   git config --list
   ```
-### Archivos
+### 📁 Archivos
 
 - **Comandos para acceder, ver archivos y remover**:
   ```bash
@@ -30,4 +32,46 @@ Lista de comandos esenciales de Git Bash para el control de versiones.
   rm "nombre_archivo"
   rmdir "nombre_carpeta"
   ```
-  
+### 💻 Configuración de Repositorio
+
+- **Comandos para inicializar, agregar rama**:
+  ```bash
+  git init
+  git remote add origin <url_repositorio>
+  ```
+- **Comandos para agregar, commit, commit con detalle**:
+  ```bash
+  git add .
+  git commit -m "mensaje"
+  git commit -m "mensaje" -m "detalle"
+  ```
+- **Comandos para ver estado del repositorio**:
+  ```bash
+  git status
+  ```
+- **Comando para ver commits**:
+  ```bash
+  git log --oneline
+  ```
+- **Comando para revertir commit**:
+  ```bash
+  git revert "id_commit"
+  ```
+- **Comando para resetear commit**:
+  ```bash
+  git reset "id_commit"
+  ```
+- **Comando cambiar de rama**:
+  ```bash
+  git checkout "nombre_rama"
+  ```
+- **Comando crear y ver las ramas**:
+  ```bash
+  git branch test
+  git branch -a
+  git bash -b test-1
+  ```
+- **Comando eliminar rama**:
+  ```bash
+  git branch -D "nombre_rama"
+  ```
